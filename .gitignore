@@ -1,0 +1,33 @@
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environnement virtuel
+venv/
+.venv/
+
+# Egg info
+*.egg-info/
+*.eggs/
+
+# Notebooks Jupyter
+.ipynb_checkpoints/
+
+# Fichiers système
+.DS_Store
+
+# Fichiers d’environnement
+.env
+.env.*
+
+# Cache de Streamlit
+.streamlit/
+
+# Base de données locales
+vmount/
+pgdata/
+*.sqlite
+
+#fichiers data
+*.csv
