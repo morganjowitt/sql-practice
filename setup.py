@@ -3,6 +3,6 @@ from setuptools import setup, find_packages
 setup(
     name="sqlapp",
     version="0.1",
-    packages=find_packages(where="app"),
-    package_dir={"": "app"},
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
 )
