@@ -13,7 +13,7 @@ engine = connector.engine
 
 st.write("Tables disponibles :", connector.tables())
 
-query = st.text_area("✍️ Entrez votre requête SQL ici :", "SELECT * FROM public.bank_churn LIMIT 10;")
+query = st.text_area("✍️ Entrez votre requête SQL ici :", "SELECT * FROM public.train LIMIT 10;")
 result = connector.query_df(sql=query)
 
 st.write(result)

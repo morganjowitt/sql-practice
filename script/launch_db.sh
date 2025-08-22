@@ -1,6 +1,3 @@
 #!/bin/bash
 
-# Nom du conteneur Docker
-CONTAINER_NAME="postgres-db-sql"
-echo "Démarrage du conteneur..."
-docker start $CONTAINER_NAME
+docker start postgres-db-sql
