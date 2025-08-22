@@ -1,5 +1,4 @@
 from sqlalchemy import create_engine, inspect, text
-import streamlit as st
 
 import os
 from dotenv import load_dotenv
